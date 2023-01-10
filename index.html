@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8">
+<title>Insert title here</title>
+<link rel="stylesheet" href="./css/indexhtml.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+function HomeDisplay(){
+	$('#Home').fadeIn('slow');
+	$('#About').hide();
+	$('#Archive').hide();
+	$('#Career').hide();
+	$('#Projects').hide();
+}
+function AboutDisplay(){
+	
+	$('#About').fadeIn('slow');
+	$('#Home').hide();
+	$('#Archive').hide();
+	$('#Career').hide();
+	$('#Projects').hide();
+}
+function ArchiveDisplay(){
+	$('#Archive').fadeIn('slow');
+	$('#Home').hide();
+	$('#About').hide();
+	$('#Career').hide();
+	$('#Projects').hide();
+}
+function ProjectsDisplay(){
+	$('#Projects').fadeIn('slow');
+	$('#Home').hide();
+	$('#Archive').hide();
+	$('#About').hide();
+	$('#Career').hide();
+}
+function CareerDisplay(){
+	$('#Career').fadeIn('slow');
+	$('#Home').hide();
+	$('#Archive').hide();
+	$('#Projects').hide();
+	$('#About').hide();
+}
+
+</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet">
+
+</head>
+<body>
+	<ul class="nav nav-fill ">
+  		<li class="nav-item">
+    		<a class="nav-link" href="javascript:void(0);" onclick="HomeDisplay(this);">Home</a>
+  		</li>
+  		<li class="nav-item">
+    		<a class="nav-link" href="javascript:void(0);" onclick="AboutDisplay();">About</a>
+  		</li>
+  		<li class="nav-item">
+			<a class="nav-link" href="javascript:void(0);" onclick="ArchiveDisplay();">Archive</a>
+  		</li>
+  		<li class="nav-item">
+    		<a class="nav-link" href="javascript:void(0);" onclick="ProjectsDisplay();">Projects</a>
+  		</li>
+  		<li class="nav-item">
+    		<a class="nav-link" href="javascript:void(0);" onclick="CareerDisplay();">Career</a>
+  		</li>
+  		
+	</ul>
+<hr>
+	<div class="container " id="wrap">
+		<div class="main" id="main">
+			<div class="row " id="Home">
+				<figure class="col col-12">
+  					<blockquote class="blockquote">
+    					<h1>안녕하세요!</h1>
+  					</blockquote>
+  					<figcaption class="blockquote-footer">
+    						백엔드 웹 개발자가 되고 싶은 서승교입니다. 시간 내어 방문해주셔서 감사합니다!
+  					</figcaption>
+				</figure>
+				<hr>
+				<div class="col" style="text-align: center;>
+  					<p>
+  						<a class="btn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+    						<img src="./images/person-down.svg" style="width: 24px;" height="24px;">
+  						</a>
+					</p>
+					<div class="collapse" id="collapseExample">
+  						<div class="card card-body">
+    						<div class="row">
+    							<div class="col">
+    								<div class="row">
+    									<div class="col-12">
+    										<img src="./images/person-fill.svg">
+    									</div>
+    									<div class="col-12" id="home-text">
+    										<p style="text-decoration: underline;">SEO SEUNG GYO</p>
+    									</div>
+    								</div>
+    							</div>
+    							<div class="col">
+    								<div class="row">
+    									<div class="col-12">
+    										<img src="./images/geo-alt-fill.svg">
+    									</div>
+    									<div class="col-12" id="home-text">
+    										<p style="text-decoration: underline;">Daegu, Republic of Korea</p>
+    									</div>
+    								</div>
+    							</div>
+    							
+    						</div>
+    						<div class="row">
+    							<div class="col">
+    								<div class="row">
+    									<div class="col-12">
+    										<img src="./images/phone-vibrate-fill.svg">
+    									</div>
+    									<div class="col-12" id="home-text">
+    										<p style="text-decoration: underline;">010-5662-4972</p>
+    									</div>
+    								</div>
+    							</div>
+    							<div class="col">
+    								<div class="row">
+    									<div class="col-12">
+    										<img src="./images/envelope-fill.svg">
+    									</div>
+    									<div class="col-12" id="home-text">
+    										<p style="text-decoration: underline;">sskyo0517@gmail.com / sskyo0517@naver.com</p>
+    										
+    									</div>
+    								</div>
+    							</div>
+    						</div>
+  						</div>
+					</div>
+				</div>
+			</div>
+		
+			<div class="row" id="About" style="display: none;">
+				<div class="col">
+					<div class="row" id="About_Inner">
+						<div class="col col-12 col-sm-12 col-md-3 com-lg-3 " style="text-align: center;">							
+							<img id="IdPicture" src="./images/IdPicture.jpg" alt="...">
+						</div>
+						<div class="col col-12 col-sm-12 col-md-9 col-lg-9" id="About_text">
+							<div class="row ">
+								<div class="col col-12 col-sm-12 col-md-4 col-lg-4" id="About_content">
+									<h5>TimeLine</h5>
+									<p>
+									<b>대건고등학교</b>
+									<br>
+									2008.03 ~ 2010.02</p>
+									<p>
+									<b>영남대학교 (컴퓨터공학과)</b>
+									<br>
+									2011.03 ~ 2017.02</p>
+									<p>
+									<b>피플데이타 (시스템엔지니어)</b>
+									<br>
+									2019.05 ~ 2021.04</p>
+								</div>
+								<div class="col col-12 col-sm-12 col-md-4 col-lg-4" id="About_content">
+									<h5>Certification</h5>
+									<p>
+									<b>1종보통운전면허</b>
+									<br>
+									2010.06
+									</p>
+									<p>
+									<b>정보처리기사</b>
+									<br>
+									2017.05
+									</p>
+									<p>
+									<b><del>rhcsa(만료)</del></b>
+									<br>
+									<img id="rhcsa" src="./images/rhcsa.png" width="80px;" height="50px;">
+									</p>
+									<p>
+									<b>VMware-VCP</b>
+									<br>
+									<img id="VCPDCV2020" src="./images/VCPDCV2020.png" width="80px;" height="50px;">
+									</p>
+									<p>등등 DellEMC관련 자격증</p>
+								</div>
+								<div class="col col-12 col-sm-12 col-md-4 col-lg-4" id="About_content">
+									<h5>Activities</h5>
+									<p>
+									<b>한국IT교육원</b>
+									<br>
+									2017.12 ~ 2018.06
+									</p>
+									<p>
+									<b>중앙직업전문학교</b>
+									<br>
+									2021.12 ~ 2022.07
+									</p>
+								</div>
+							</div>
+						</div>
+							
+					</div>
+					<hr>
+					<div class="row">
+						<div class="col-12" id="About_text">
+							<h3>
+ 								꾸준하게, 꿋꿋하게! 
+ 							</h3>
+ 							
+ 							<p>
+ 								<span style="color: red;">
+ 									'끝까지 남는 사람이 이기는 사람이다.'
+ 									<br>
+ 									'강한 자가 살아남는게 아니라 살아남는 자가 강한 것이다.'
+ 									<br>
+ 									'떨어지는 물방울이 돌에 구멍을 낸다'
+ 								</span>
+ 								<br>
+ 								라는 말을 가장 좋아하며 저도 꾸준하게 발전하여 역량을 갖춘 백엔드 개발자가 되고 싶습니다.
+ 							</p>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+			<div class="row" id="Archive" style="display: none;">
+				<div class="col">
+					<div class="row" id="Archive_Inner">
+						<div class="col" id="Archive_text">
+							<h3>blog</h3>
+							<a href="https://blog.naver.com/sskyo0517" target="_blank"><img src="./images/Archive_2.png" width="150px;" height="150px;"></a>
+							<p>시스템 엔지니어로 근무할 때, 업무에 필요한 간단한 작업들은 블로그에 정리해두었습니다.(이미지 클릭 시 방문)</p>
+						</div>
+						<div class="col" id="Archive_text">
+							<h3>github</h3>
+							<a href="https://github.com/SEOSEUNGGYO" target="_blank"><img src="./images/Archive_2.png" width="150px;" height="150px;"></a>
+							<p>현재 진행하고 있는 개인 프로젝트나 JAVA 알고리즘 연습 코드 등을 관리중인 github입니다.(이미지 클릭 시 방문)</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row" id="Projects" style="display: none;">
+				<div class="col-6" id="division">
+					<p>농구 매칭</p>
+					<div id="carouselExample1" class="carousel carousel-dark slide">
+  						<div class="carousel-inner">
+    						<div class="carousel-item active">
+      							<img src="./images/basket1.png" class="d-block w-100" alt="..." id="olle_image">
+    						</div>
+    						<div class="carousel-item">
+      							<img src="./images/basket2.png" class="d-block w-100" alt="..." id="olle_image">
+    						</div>
+    						<div class="carousel-item">
+      							<img src="./images/basket3.png" class="d-block w-100" alt="..." id="olle_image">
+    						</div>
+    						<div class="carousel-item">
+      							<img src="./images/basket4.png" class="d-block w-100" alt="..." id="olle_image">
+    						</div>
+  						</div>
+  						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+    						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    						<span class="visually-hidden">Previous</span>
+  						</button>
+  						<button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+    						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    						<span class="visually-hidden">Next</span>
+  						</button>
+					</div>
+					
+					<span id="Project_text">
+					제 취미인 농구와 관련된 개인 프로젝트 입니다.
+					<br>
+					풋살이나 축구는 매칭을 위한 웹 페이지나 앱이 활성화 되어 있는 것을 확인했습니다.
+					<br>
+					그러나 농구는 코트에 대한 정보와 매치를 진행할 인원이 부족할 때 사용할만한 웹 페이지나 앱이 거의 없어 개인 프로젝트를 진행했습니다.
+					</span>
+					<hr>
+					<p>사용 기술(MVC2)</p>
+					<ul>
+					<li><span id="Project_text">JAVA</span></li>
+					<li><span id="Project_text">Servlet</span></li>
+					<li><span id="Project_text">JSP</span></li>
+					<li><span id="Project_text">HTML</span></li>
+					<li><span id="Project_text">MySQL</span></li>
+					</ul>
+				</div>
+				<div class="col-6" id="division">
+					<p>올레 동행 구하기</p>
+					<div id="carouselExample2" class="carousel carousel-dark slide">
+  						<div class="carousel-inner">
+    						<div class="carousel-item active">
+      							<img src="./images/olle1.png" class="d-block w-100" alt="..." id="basket_image">
+    						</div>
+    						<div class="carousel-item">
+      							<img src="./images/basket2.png" class="d-block w-100" alt="..." id="basket_image">
+    						</div>
+    						<div class="carousel-item">
+      							<img src="./images/basket3.png" class="d-block w-100" alt="..." id="basket_image">
+    						</div>
+  						</div>
+  						<button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
+    						<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    						<span class="visually-hidden">Previous</span>
+  						</button>
+  						<button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
+    						<span class="carousel-control-next-icon" aria-hidden="true"></span>
+    						<span class="visually-hidden">Next</span>
+  						</button>
+					</div>
+					<span id="Project_text">
+					제 또 다른 취미인 올레길 걷기와 관련된 개인 프로젝트 입니다.
+					<br>
+					올레길을 혼자 걷다보니 혼자 보다는 여럿이 걸으면 좋을 것 같다는 생각이 들때가 있었습니다.
+					<br>
+					예를 들면 아주 울창한 숲이라 데이터가 터지지 않는 상황, 이정표 역할을 하는 리본을 상실하여 왔던 길을 한참 되돌아가야 하는 경우,
+					야생동물이나 방목된 가축들이 있어 혼자 다니기는 조심스럽고 부담스러운 상황, 때로는 길이 너무 험하고 인적이 드물어 무서운 상황도 있었습니다.
+					<br>
+					그때의 경험을 되살려 동행을 구해서 같이 갈 수 있는 웹페이지가 있으면 편하지 않을까 하여 개인 프로젝트를 진행했습니다. 					
+					</span>
+					<hr>
+					<p>사용 기술</p>
+					<ul>
+					<li><span id="Project_text">JAVA</span></li>
+					<li><span id="Project_text">JSP</span></li>
+					<li><span id="Project_text">HTML</span></li>
+					<li><span id="Project_text">MySQL</span></li>
+					</ul>
+				</div>
+				
+			</div>
+			<div class="row" id="Career" style="display: none;">
+				<div class="col">
+					<div class="row">
+						<div class="col col-3">
+							<p style="color: #727272;">2019.05 ~ 2021.04</p>
+							<p>시스템엔지니어</p>
+						</div>
+						<div class="col col-9" id="Career_text">
+							<p>
+							입사 초기에는 공공기관 방문하여 시스템 구축, 점검, 유지보수 하였으며 이후 회사의 요청에 따라 OO시청에 상주 시스템 엔지니어로 근무하였습니다.
+							</p>
+							<p>
+							업무는  담당하고 있던 시스템들의 정기점검과 유지보수, 새 프로젝트 도입 시 시스템 구축이었습니다.
+							<br>
+							HW 이외에도 가상화(VMware vSphere), VDI(VMware Horizon)등 가상화 시스템도 구축, 운영 및 유지보수 하였습니다. 
+							</p>
+							<hr>
+							<p>
+							처음 상주 근무를 시작했을 때 OO시청에 처음으로 들어가기 시작한 엔지니어였으며, 전산 시스템의 담당자 또한 처음 발령을 받아 담당하게 된 상황이었습니다.
+							<br>
+							고객은 저에게 많은 것들을 요청하셨으며 저는 시간이 걸리고 제가 담당하는 분야가 아니었어도 
+							사내 모든 상사들과 필요하다면 타 업체분들에게 까지 양해를 구하며 여쭈어 답을 드렸습니다.
+							</p>
+							<p>
+							담당자가 변경되고 혼란스러운 상황이다 보니, 많은 시스템들의 담당 업체가 정리되지 않은 상황이었습니다.
+							<br>
+							하지만 자연재해나 전기적인 작업 등이 전산실에서는 언제든 발생할 수 있었기 때문에 저는 전산실 내 모든 장비들의 담당업체를 정리하였습니다.
+							<br>
+							제가 담당하던 시스템과는 거리가 먼 타 업체의 시스템도 간단하게나마 육안점검으로 그 결과를
+							업체들에게 전달해주었으며 그 결과 고객들과의 관계 뿐만 아니라 타 업체의 담당 엔지니어들과도 원활한 관계를 이어갈 수 있었습니다. 
+							</p>
+							<p>
+							이는 제가 도움이 필요할 때 크게 빛을 발하였습니다. 많은 엔지니어분들께서 자신의 업무처럼 도와주셨으며,
+							바쁘신 와중에도 많이 신경써주셔서 원활하게 업무를 진행할 수 있었습니다. 
+							</p>
+							<hr>
+							<p>
+							제가 시스템 엔지니어로 근무하면서 배우고 깨달은 것은 
+							업무적인 부분은 전체적인 시스템이 어떻게 흘러가고 움직이는지를 알게 된 것이고,
+							또 사람과 사람간의 관계에서는 내가 베푼만큼 또 노력한만큼 기회나 친절이 돌아온다는 것입니다.
+							<br>
+							백엔드 개발자로의 시작을 하는데 시스템 엔지니어라는 저의 경험은 
+							전체적인 시스템을 이해하여 좀 더 나은 개발을 할 수 있는 개발자가 될 수 있게 도와줄 것이고
+							엔지니어로 근무하면서 쌓은 관계에 대한 경험은 협업이나 장애 발생 시에 원활한 해결을 도와줄 것이라 생각합니다. 
+ 							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+   
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js" integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD" crossorigin="anonymous"></script>
+
+</body>
+</html>

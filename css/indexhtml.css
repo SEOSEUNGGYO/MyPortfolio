@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@700&family=Roboto:ital@1&display=swap');
+#wrap{
+	width: 100%;
+	margin-top: 20px;
+	font-family: 'Nanum Gothic', sans-serif;
+}
+#wrap #main{
+	width: 80%;
+	margin: 0 auto;
+}
+.nav{
+	margin-top: 10px;
+	font-family: 'Roboto', sans-serif;
+	
+}
+.nav .nav-item .nav-link{
+	color: black; 
+}
+#content{
+	margin-top: 50px;
+}
+#Home, #About, #Archive, #Projects, #Career{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+figure{
+	padding-top: 20px;
+	text-align: center;
+}
+#home-text , #About_text{
+	font-size: small;
+	text-align: center;
+}
+#About_text #About_content{
+	font_size: small;
+	text-align: center;
+}
+#IdPicture{
+	object-fit: fill; 
+}
+#About #About_Inner, #Archive #Archive_Inner{
+	padding-top: 20px;
+}
+#Archive_text{
+	font-size: small;
+}
+#Career_text, #Project_text{
+	font-size: small;
+}
+#basket_image, #olle_image{
+	width:550px;
+	height:250px;
+}
